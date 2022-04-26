@@ -7,6 +7,11 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background: linear-gradient(90deg, rgb(235, 235, 239) 0%, rgba(241,241,241,1) 4%, rgba(121,227,248,1) 94%, rgba(0,212,255,1) 100%);
+    background-image: url('images/bg-pattern-top.svg');
+    background-image: url('images/bg-pattern-bottom.svg');
+    background-position: left -330px top -550px, right -280px bottom -670px;
+    background-color: hsl(185, 75%, 39%); 
+    background-blend-mode: overlay;
 }
 
 img {
